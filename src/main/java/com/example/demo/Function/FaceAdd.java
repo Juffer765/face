@@ -15,15 +15,15 @@ public class FaceAdd {
         // 请求url
         String url = "https://aip.baidubce.com/rest/2.0/face/v3/faceset/user/add";
         try {
-            byte[] bytes1 = FileUtil.readFileByBytes("F:\\face\\src\\main\\resources\\static\\model_1.jpg");
+            byte[] bytes1 = FileUtil.readFileByBytes("F:\\face\\src\\main\\resources\\static\\Liao.jpg");
             String image1 = Base64Util.encode(bytes1);
 
             Map<String, Object> map = new HashMap<>();
             map.put("image", image1);
             map.put("image_type", "BASE64");
             map.put("group_id", "group_repeat");
-            map.put("user_id", "user1");
-            map.put("user_info", "衣带渐宽终不悔");
+            map.put("user_id", "Yandong");
+            map.put("user_info", "wwww");
             map.put("quality_control", "LOW");
 
             String param = GsonUtils.toJson(map);

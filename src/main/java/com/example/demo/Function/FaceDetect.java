@@ -5,9 +5,7 @@ import com.example.demo.tool.FileUtil;
 import com.example.demo.tool.GsonUtils;
 import com.example.demo.tool.HttpUtil;
 import org.springframework.stereotype.Service;
-import sun.misc.BASE64Encoder;
 
-import java.io.*;
 import java.util.*;
 @Service
 public class FaceDetect {

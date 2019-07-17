@@ -51,7 +51,7 @@ public class FaceMatch {
         } catch (Exception e) {
             e.printStackTrace();
         }
-        return null;
+        return "";
     }
 
     public static void main(String[] args) {
